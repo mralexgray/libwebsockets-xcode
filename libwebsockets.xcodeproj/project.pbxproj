@@ -1,0 +1,2815 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              CB6779F251F6485586697D11 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 657F1A388FD3437E9DBD0D31 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            F3D440E9CD9E42FB9C7BF7F4 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            C4F82CF70DF04A9DB434A6DB /* PBXTargetDependency */,
+                            D0B29D440E2741F8BB3E0D8D /* PBXTargetDependency */,
+                            19C0575065D04431BFF67EB9 /* PBXTargetDependency */,
+                            2CADE939C41945F38099FE63 /* PBXTargetDependency */,
+                            C0E0336162FD41ABA52A5C01 /* PBXTargetDependency */,
+                            7F2AF843E57D4E518C8E06A5 /* PBXTargetDependency */,
+                            70155228AE0E4AE7B69315D7 /* PBXTargetDependency */,
+                            FDA6236DE3534C60AFD883A4 /* PBXTargetDependency */,
+                            CF0B6C6DE6234007AA778B46 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              DE1B6D6D311D42BA8965F0B6 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = C3D3C73432454FFC8759CE68 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            705399BCEC1E498AB1BD14DB /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              2B41F61B3714477EB1AABA9D /* dist */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = F10119ED297A4B0BAD68C269 /* Build configuration list for PBXAggregateTarget "dist" */;
+                     buildPhases = (
+                            FC130D0078FC4A0390CE2409 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            E8EDFC84990145D791130A75 /* PBXTargetDependency */,
+                     );
+                     name = dist;
+                     productName = dist;
+              };
+              C99DE65EBA9A4A9EAE6F2A00 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 61F539940BF6409985741C19 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            86AE2DE49F434A40BD6C3E22 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            1BEB8E622B75407A92B0543B /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+              BC1E605BDCA14E2BB15F619D /* package */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 4831DDE3E03C43BE8D80838E /* Build configuration list for PBXAggregateTarget "package" */;
+                     buildPhases = (
+                            BA084ACB6A1B4F8D8310542A /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            03A9C52948F340BCAA29EC23 /* PBXTargetDependency */,
+                     );
+                     name = package;
+                     productName = package;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+0BA2E7D809364667A6F7F78A /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+0EFEBFDD37F746E2B300DDED /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-client.c */ = {isa = PBXBuildFile; fileRef = 5C47328758434565849E8A59 /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-client.c */; settings = { COMPILER_FLAGS = ""; }; };
+3E8557BE2FF4474987C0D13E /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+D6BB5E59B1A640A08DF9AE4C /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-echo.c */ = {isa = PBXBuildFile; fileRef = EAED7BE8B8694B0FABCF42E3 /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-echo.c */; settings = { COMPILER_FLAGS = ""; }; };
+62333D08BBEA4583972D72DE /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+E32756DA20084A61BBE6A9E0 /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-fraggle.c */ = {isa = PBXBuildFile; fileRef = 05C90D8693184BE1A8ED3E64 /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-fraggle.c */; settings = { COMPILER_FLAGS = ""; }; };
+BECB469C80E2494CBC101FB5 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+4DC8720ECF7742CE8F5B20BB /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-ping.c */ = {isa = PBXBuildFile; fileRef = D9E502D933F643CBA27CE82A /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-ping.c */; settings = { COMPILER_FLAGS = ""; }; };
+2F6D0502B57E4EE88AFE19BC /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+8951D495F0454D3FA3B4EEFB /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-server.c */ = {isa = PBXBuildFile; fileRef = EAC91C27805B4737B1CD2F4A /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-server.c */; settings = { COMPILER_FLAGS = ""; }; };
+B76BB380925E4ED2996C8268 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+F669E96A8434405DBA2E9C7A /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-server.c */ = {isa = PBXBuildFile; fileRef = EAC91C27805B4737B1CD2F4A /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-server.c */; settings = { COMPILER_FLAGS = ""; }; };
+48FE4DB42868416D885F4C89 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+F1BE0E51A735430A941D432B /* /Volumes/2T/ServiceData/git/libwebsockets/lib/base64-decode.c */ = {isa = PBXBuildFile; fileRef = B3606E63C46248FD8F9CBAE7 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/base64-decode.c */; settings = { COMPILER_FLAGS = ""; }; };
+C78A7AA85B424862BBF9EF2D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-handshake.c */ = {isa = PBXBuildFile; fileRef = 8DB6A567B70042ED92A7B2F6 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-handshake.c */; settings = { COMPILER_FLAGS = ""; }; };
+6583E1C44D494873AB9A12A0 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-parser.c */ = {isa = PBXBuildFile; fileRef = 4366A7B9393945BA918F392D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-parser.c */; settings = { COMPILER_FLAGS = ""; }; };
+EA3A00C528144758922C1597 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client.c */ = {isa = PBXBuildFile; fileRef = CC789D8A39BE46FF9E09F956 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client.c */; settings = { COMPILER_FLAGS = ""; }; };
+51810645C7E34D72A70C4D97 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/daemonize.c */ = {isa = PBXBuildFile; fileRef = 13C17C92BC1C49B38E66FF98 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/daemonize.c */; settings = { COMPILER_FLAGS = ""; }; };
+237C7C61F84A4E4A86641946 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-frame.c */ = {isa = PBXBuildFile; fileRef = 062D655412F541B0AA700342 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-frame.c */; settings = { COMPILER_FLAGS = ""; }; };
+FDE977054E0448A79B748560 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-frame.h */ = {isa = PBXBuildFile; fileRef = 14462879A3FD4CFC9A6DBE36 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-frame.h */; settings = { COMPILER_FLAGS = ""; }; };
+2FF0766B22084C40A33DF5B5 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-stream.c */ = {isa = PBXBuildFile; fileRef = 303A605ABF7243858BE9056A /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-stream.c */; settings = { COMPILER_FLAGS = ""; }; };
+6CCEA4EEC718402A9B09265C /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-stream.h */ = {isa = PBXBuildFile; fileRef = 26D1FC03A4D24BE58E2EC7F1 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-stream.h */; settings = { COMPILER_FLAGS = ""; }; };
+C6227521F1114E079A4AF184 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension.c */ = {isa = PBXBuildFile; fileRef = 0AB8B23D35094AE8B7E3F7BC /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension.c */; settings = { COMPILER_FLAGS = ""; }; };
+8E50D87DD6F64A0AB9B50F35 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/handshake.c */ = {isa = PBXBuildFile; fileRef = 5C93ECE434F949B591324C09 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/handshake.c */; settings = { COMPILER_FLAGS = ""; }; };
+2BC4042B041D4850A60020F1 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/libwebsockets.c */ = {isa = PBXBuildFile; fileRef = FDD91A1B8C2F4515B1854C16 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/libwebsockets.c */; settings = { COMPILER_FLAGS = ""; }; };
+DAAD17C021D746B7BD3336A2 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/libwebsockets.h */ = {isa = PBXBuildFile; fileRef = 23C5708FAD6C40179423E0B5 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/libwebsockets.h */; settings = { COMPILER_FLAGS = ""; }; };
+D52079AA02AC4674A591ADD9 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/output.c */ = {isa = PBXBuildFile; fileRef = 5EC7B7E22AFC4343B7A9764D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/output.c */; settings = { COMPILER_FLAGS = ""; }; };
+E13F2B4078BF4921A6CFDDF2 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/parsers.c */ = {isa = PBXBuildFile; fileRef = 09E5A62EC42F4757A47B9899 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/parsers.c */; settings = { COMPILER_FLAGS = ""; }; };
+121FCA0A9FFD4DEA807F4D1A /* /Volumes/2T/ServiceData/git/libwebsockets/lib/private-libwebsockets.h */ = {isa = PBXBuildFile; fileRef = 40EB38D9BF8841BD9FBE819D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/private-libwebsockets.h */; settings = { COMPILER_FLAGS = ""; }; };
+F7FA88641BC54E92AAF913DD /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server-handshake.c */ = {isa = PBXBuildFile; fileRef = 1A10DC1478D34729836E5129 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server-handshake.c */; settings = { COMPILER_FLAGS = ""; }; };
+1B6499CF22574E2B9D02B986 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server.c */ = {isa = PBXBuildFile; fileRef = E7872B6F804E47D78B37FCE3 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server.c */; settings = { COMPILER_FLAGS = ""; }; };
+C2148A44913D460ABFB45894 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/sha-1.c */ = {isa = PBXBuildFile; fileRef = C5FA78E0037C426E8114F932 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/sha-1.c */; settings = { COMPILER_FLAGS = ""; }; };
+8A8F6334499E49A9B8D3A3AB /* /Volumes/2T/ServiceData/git/libwebsockets/lws_config.h */ = {isa = PBXBuildFile; fileRef = 9068CD90F2D744F49EC36CBE /* /Volumes/2T/ServiceData/git/libwebsockets/lws_config.h */; settings = { COMPILER_FLAGS = ""; }; };
+49216782775A43F3B47CF6FF /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+C7BB68ED3F6F43C8BA9F655E /* /Volumes/2T/ServiceData/git/libwebsockets/lib/base64-decode.c */ = {isa = PBXBuildFile; fileRef = B3606E63C46248FD8F9CBAE7 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/base64-decode.c */; settings = { COMPILER_FLAGS = ""; }; };
+4CC0F89B191B4FC8A8CCB467 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-handshake.c */ = {isa = PBXBuildFile; fileRef = 8DB6A567B70042ED92A7B2F6 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-handshake.c */; settings = { COMPILER_FLAGS = ""; }; };
+8971AE8D65B14660A22E8ECC /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-parser.c */ = {isa = PBXBuildFile; fileRef = 4366A7B9393945BA918F392D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-parser.c */; settings = { COMPILER_FLAGS = ""; }; };
+216E6278D99C4E93920E19C7 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client.c */ = {isa = PBXBuildFile; fileRef = CC789D8A39BE46FF9E09F956 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client.c */; settings = { COMPILER_FLAGS = ""; }; };
+86AA06B262574F2A98B3CC1D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/daemonize.c */ = {isa = PBXBuildFile; fileRef = 13C17C92BC1C49B38E66FF98 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/daemonize.c */; settings = { COMPILER_FLAGS = ""; }; };
+EBC452DF45824CA9A955915F /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-frame.c */ = {isa = PBXBuildFile; fileRef = 062D655412F541B0AA700342 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-frame.c */; settings = { COMPILER_FLAGS = ""; }; };
+0324FDF9C3894E6E8543B78C /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-frame.h */ = {isa = PBXBuildFile; fileRef = 14462879A3FD4CFC9A6DBE36 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-frame.h */; settings = { COMPILER_FLAGS = ""; }; };
+52AC3B4800B14990A6AC6548 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-stream.c */ = {isa = PBXBuildFile; fileRef = 303A605ABF7243858BE9056A /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-stream.c */; settings = { COMPILER_FLAGS = ""; }; };
+C1CE5D1385F5487581566AC2 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-stream.h */ = {isa = PBXBuildFile; fileRef = 26D1FC03A4D24BE58E2EC7F1 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-stream.h */; settings = { COMPILER_FLAGS = ""; }; };
+BC2223171E5F4CF58625F891 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension.c */ = {isa = PBXBuildFile; fileRef = 0AB8B23D35094AE8B7E3F7BC /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension.c */; settings = { COMPILER_FLAGS = ""; }; };
+8366E8CAA72546699DEC9B75 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/handshake.c */ = {isa = PBXBuildFile; fileRef = 5C93ECE434F949B591324C09 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/handshake.c */; settings = { COMPILER_FLAGS = ""; }; };
+58C79163569C42C1B1B02F5E /* /Volumes/2T/ServiceData/git/libwebsockets/lib/libwebsockets.c */ = {isa = PBXBuildFile; fileRef = FDD91A1B8C2F4515B1854C16 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/libwebsockets.c */; settings = { COMPILER_FLAGS = ""; }; };
+273F32BC9C554E4F914239BE /* /Volumes/2T/ServiceData/git/libwebsockets/lib/libwebsockets.h */ = {isa = PBXBuildFile; fileRef = 23C5708FAD6C40179423E0B5 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/libwebsockets.h */; settings = { COMPILER_FLAGS = ""; }; };
+42FE36B3E1454C3480B99E6E /* /Volumes/2T/ServiceData/git/libwebsockets/lib/output.c */ = {isa = PBXBuildFile; fileRef = 5EC7B7E22AFC4343B7A9764D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/output.c */; settings = { COMPILER_FLAGS = ""; }; };
+D95921A42A5844659E200BF2 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/parsers.c */ = {isa = PBXBuildFile; fileRef = 09E5A62EC42F4757A47B9899 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/parsers.c */; settings = { COMPILER_FLAGS = ""; }; };
+62B4BA7627B140BEB1C0C775 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/private-libwebsockets.h */ = {isa = PBXBuildFile; fileRef = 40EB38D9BF8841BD9FBE819D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/private-libwebsockets.h */; settings = { COMPILER_FLAGS = ""; }; };
+AD5DA15311B9411BA50FFF24 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server-handshake.c */ = {isa = PBXBuildFile; fileRef = 1A10DC1478D34729836E5129 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server-handshake.c */; settings = { COMPILER_FLAGS = ""; }; };
+B2941A5BFF854E90BF6A70E9 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server.c */ = {isa = PBXBuildFile; fileRef = E7872B6F804E47D78B37FCE3 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server.c */; settings = { COMPILER_FLAGS = ""; }; };
+62DE27F374414A698718D5EB /* /Volumes/2T/ServiceData/git/libwebsockets/lib/sha-1.c */ = {isa = PBXBuildFile; fileRef = C5FA78E0037C426E8114F932 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/sha-1.c */; settings = { COMPILER_FLAGS = ""; }; };
+0878E7C55ADB4B5089264739 /* /Volumes/2T/ServiceData/git/libwebsockets/lws_config.h */ = {isa = PBXBuildFile; fileRef = 9068CD90F2D744F49EC36CBE /* /Volumes/2T/ServiceData/git/libwebsockets/lws_config.h */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              153C3BA6151C4C41A5CEA9EE /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              804CA45ACE404E63841B9D43 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              CDE62637E06A4BC686CAD968 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              3056225AE8DB47E49494562A /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              E34E3601D31C448EA865C3D1 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              846AA2233BF3429097101B50 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = BC35D19067C245AF81DB6F43;
+                     remoteInfo = "test-client";
+              };
+              623838269D004329861967AA /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 592A2BD204CC425FA1277699;
+                     remoteInfo = "test-fraggle";
+              };
+              3E3A982CEE9E4B04A923E737 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 83F71C3BEA7C452A8D22ECA0;
+                     remoteInfo = "test-ping";
+              };
+              E45013FB130D465BB9CE52B8 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 3A0C36ADB11447DC81C3B6BD;
+                     remoteInfo = "test-echo";
+              };
+              3762DA4473F74E8ABB7E4A7B /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = DE1B6D6D311D42BA8965F0B6;
+                     remoteInfo = ZERO_CHECK;
+              };
+              CD8A167C3E814D11A3B277B0 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = A50491CA23644657AD1B3F4F;
+                     remoteInfo = websockets;
+              };
+              46197AF3F55F497DA2C96122 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 7BCDBA31554C4182BE9308F8;
+                     remoteInfo = websockets_shared;
+              };
+              8BCCA900C7A6499EA40C3301 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = EA7953E9F2D54AEDB5A434D6;
+                     remoteInfo = "test-server";
+              };
+              F86E1FC9BD854C4B88544ABF /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 0505BDEE54AB43BEB5421FF4;
+                     remoteInfo = "test-server-extpoll";
+              };
+              5734068076B44665822D2460 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = DE1B6D6D311D42BA8965F0B6;
+                     remoteInfo = ZERO_CHECK;
+              };
+              836523B0864C4E2286D372AD /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = CB6779F251F6485586697D11;
+                     remoteInfo = ALL_BUILD;
+              };
+              CC4F71C9BA804E0B9B70EA5A /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = CB6779F251F6485586697D11;
+                     remoteInfo = ALL_BUILD;
+              };
+              CF3692182A19498DB14B8443 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = DE1B6D6D311D42BA8965F0B6;
+                     remoteInfo = ZERO_CHECK;
+              };
+              7C6EB9BFB99B440BA887A8E5 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = A50491CA23644657AD1B3F4F;
+                     remoteInfo = websockets;
+              };
+              6D2B7A26B8FC4CB9A4D63995 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = DE1B6D6D311D42BA8965F0B6;
+                     remoteInfo = ZERO_CHECK;
+              };
+              299B3BBA0F7F4B308CB96F7B /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = A50491CA23644657AD1B3F4F;
+                     remoteInfo = websockets;
+              };
+              08F506712D5D4035AF620FD6 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = DE1B6D6D311D42BA8965F0B6;
+                     remoteInfo = ZERO_CHECK;
+              };
+              99751CCC35734FA491132A8A /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = A50491CA23644657AD1B3F4F;
+                     remoteInfo = websockets;
+              };
+              15C0106E8E7F4FC385344E5B /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = DE1B6D6D311D42BA8965F0B6;
+                     remoteInfo = ZERO_CHECK;
+              };
+              6178C01678324BAA8768FE8C /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = A50491CA23644657AD1B3F4F;
+                     remoteInfo = websockets;
+              };
+              AD7AFA0934714972A2BFA4A5 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = DE1B6D6D311D42BA8965F0B6;
+                     remoteInfo = ZERO_CHECK;
+              };
+              364D289ABB064CB1A94674B7 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = A50491CA23644657AD1B3F4F;
+                     remoteInfo = websockets;
+              };
+              01DF49D007724307A93B6F96 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = DE1B6D6D311D42BA8965F0B6;
+                     remoteInfo = ZERO_CHECK;
+              };
+              7E4A28C746394F798989402E /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = A50491CA23644657AD1B3F4F;
+                     remoteInfo = websockets;
+              };
+              644D8A18211D43A698943CE4 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = DE1B6D6D311D42BA8965F0B6;
+                     remoteInfo = ZERO_CHECK;
+              };
+              787863ED934A4B999254F9CA /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9013C7FAE231417DAC9A9B6C /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = DE1B6D6D311D42BA8965F0B6;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+5C47328758434565849E8A59 /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "test-client.c"; path = "test-server/test-client.c"; sourceTree = SOURCE_ROOT; };
+75B581B3F549450EACDDB116 /* test-client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "libwebsockets-test-client"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+EAED7BE8B8694B0FABCF42E3 /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-echo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "test-echo.c"; path = "test-server/test-echo.c"; sourceTree = SOURCE_ROOT; };
+600AD37716794772BB47EEF2 /* test-echo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "libwebsockets-test-echo"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+05C90D8693184BE1A8ED3E64 /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-fraggle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "test-fraggle.c"; path = "test-server/test-fraggle.c"; sourceTree = SOURCE_ROOT; };
+3226E6D1DE1E4FFA8D2C19F0 /* test-fraggle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "libwebsockets-test-fraggle"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+D9E502D933F643CBA27CE82A /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-ping.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "test-ping.c"; path = "test-server/test-ping.c"; sourceTree = SOURCE_ROOT; };
+61A0A0F6D61D4206B2BB4DF6 /* test-ping */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "libwebsockets-test-ping"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+EAC91C27805B4737B1CD2F4A /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "test-server.c"; path = "test-server/test-server.c"; sourceTree = SOURCE_ROOT; };
+7DC06B62217D47308DBC4870 /* test-server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "libwebsockets-test-server"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+0F6CDCF106284D858696F17B /* test-server-extpoll */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "libwebsockets-test-server-extpoll"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+B3606E63C46248FD8F9CBAE7 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/base64-decode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "base64-decode.c"; path = "lib/base64-decode.c"; sourceTree = SOURCE_ROOT; };
+8DB6A567B70042ED92A7B2F6 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-handshake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "client-handshake.c"; path = "lib/client-handshake.c"; sourceTree = SOURCE_ROOT; };
+4366A7B9393945BA918F392D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "client-parser.c"; path = "lib/client-parser.c"; sourceTree = SOURCE_ROOT; };
+CC789D8A39BE46FF9E09F956 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "client.c"; path = "lib/client.c"; sourceTree = SOURCE_ROOT; };
+13C17C92BC1C49B38E66FF98 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/daemonize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "daemonize.c"; path = "lib/daemonize.c"; sourceTree = SOURCE_ROOT; };
+062D655412F541B0AA700342 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-frame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "extension-deflate-frame.c"; path = "lib/extension-deflate-frame.c"; sourceTree = SOURCE_ROOT; };
+14462879A3FD4CFC9A6DBE36 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "extension-deflate-frame.h"; path = "lib/extension-deflate-frame.h"; sourceTree = SOURCE_ROOT; };
+303A605ABF7243858BE9056A /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "extension-deflate-stream.c"; path = "lib/extension-deflate-stream.c"; sourceTree = SOURCE_ROOT; };
+26D1FC03A4D24BE58E2EC7F1 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "extension-deflate-stream.h"; path = "lib/extension-deflate-stream.h"; sourceTree = SOURCE_ROOT; };
+0AB8B23D35094AE8B7E3F7BC /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "extension.c"; path = "lib/extension.c"; sourceTree = SOURCE_ROOT; };
+5C93ECE434F949B591324C09 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/handshake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "handshake.c"; path = "lib/handshake.c"; sourceTree = SOURCE_ROOT; };
+FDD91A1B8C2F4515B1854C16 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/libwebsockets.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "libwebsockets.c"; path = "lib/libwebsockets.c"; sourceTree = SOURCE_ROOT; };
+23C5708FAD6C40179423E0B5 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/libwebsockets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "libwebsockets.h"; path = "lib/libwebsockets.h"; sourceTree = SOURCE_ROOT; };
+5EC7B7E22AFC4343B7A9764D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/output.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "output.c"; path = "lib/output.c"; sourceTree = SOURCE_ROOT; };
+09E5A62EC42F4757A47B9899 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/parsers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "parsers.c"; path = "lib/parsers.c"; sourceTree = SOURCE_ROOT; };
+40EB38D9BF8841BD9FBE819D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/private-libwebsockets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "private-libwebsockets.h"; path = "lib/private-libwebsockets.h"; sourceTree = SOURCE_ROOT; };
+1A10DC1478D34729836E5129 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server-handshake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "server-handshake.c"; path = "lib/server-handshake.c"; sourceTree = SOURCE_ROOT; };
+E7872B6F804E47D78B37FCE3 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "server.c"; path = "lib/server.c"; sourceTree = SOURCE_ROOT; };
+C5FA78E0037C426E8114F932 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/sha-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "sha-1.c"; path = "lib/sha-1.c"; sourceTree = SOURCE_ROOT; };
+9068CD90F2D744F49EC36CBE /* /Volumes/2T/ServiceData/git/libwebsockets/lws_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "lws_config.h"; path = "lws_config.h"; sourceTree = SOURCE_ROOT; };
+7DA6B6D30F02427796DF6318 /* websockets */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libwebsockets.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+C53AAE1E9FD84476A53AA5CD /* websockets_shared */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libwebsockets.dylib"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              79F5D44751374D8C8F3D93EA  = {
+                     isa = PBXGroup;
+                     children = (
+                            4142DC6FEB884230900E53A6 /* Sources */,
+                            E44DD742C9EE4585ADE55469 /* Resources */,
+                            EC412982304746EB96EF3369 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              4142DC6FEB884230900E53A6 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            7EFCAB790D754C42B291CCFE /* ALL_BUILD */,
+                            D540D442FD88418B8213E7D7 /* ZERO_CHECK */,
+                            7FFD0A68A9FF447C8257C095 /* dist */,
+                            CCBBEBC2108D49DB95C8CE21 /* test-client */,
+                            2D1B7C2126AD4D41963C953C /* test-echo */,
+                            EBD99DEB92604FF993FFFC47 /* test-fraggle */,
+                            D5B819DBAC38419C88CFE365 /* test-ping */,
+                            F8E10C6B0B88432FA5976A65 /* test-server */,
+                            7B411913FE914EC4BBD47856 /* test-server-extpoll */,
+                            6357E2C689E54EF093206F60 /* websockets */,
+                            245A7CDA1CF548E09F04616C /* websockets_shared */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              E44DD742C9EE4585ADE55469 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              7EFCAB790D754C42B291CCFE /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1F54B5D7806C40018825EAEE /* CMake Rules */,
+                            68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              1F54B5D7806C40018825EAEE /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              D540D442FD88418B8213E7D7 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            EED68273D6F04CB6B0242EF0 /* CMake Rules */,
+                            68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              EED68273D6F04CB6B0242EF0 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              7FFD0A68A9FF447C8257C095 /* dist */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A18C0C9240794FE38944C40C /* CMake Rules */,
+                            68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */,
+                     );
+                     name = dist;
+                     sourceTree = "<group>";
+              };
+              A18C0C9240794FE38944C40C /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              CCBBEBC2108D49DB95C8CE21 /* test-client */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C96FC722F8E84B5EA477665F /* Sources */,
+                            68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */,
+                     );
+                     name = "test-client";
+                     sourceTree = "<group>";
+              };
+              C96FC722F8E84B5EA477665F /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5C47328758434565849E8A59 /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-client.c */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              2D1B7C2126AD4D41963C953C /* test-echo */ = {
+                     isa = PBXGroup;
+                     children = (
+                            027434E4FA464424BDE7ADCA /* Sources */,
+                            68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */,
+                     );
+                     name = "test-echo";
+                     sourceTree = "<group>";
+              };
+              027434E4FA464424BDE7ADCA /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            EAED7BE8B8694B0FABCF42E3 /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-echo.c */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              EBD99DEB92604FF993FFFC47 /* test-fraggle */ = {
+                     isa = PBXGroup;
+                     children = (
+                            3C02F92EF33D489DB5A65F50 /* Sources */,
+                            68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */,
+                     );
+                     name = "test-fraggle";
+                     sourceTree = "<group>";
+              };
+              3C02F92EF33D489DB5A65F50 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            05C90D8693184BE1A8ED3E64 /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-fraggle.c */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              D5B819DBAC38419C88CFE365 /* test-ping */ = {
+                     isa = PBXGroup;
+                     children = (
+                            CD8F730CB96443A5995C7BEE /* Sources */,
+                            68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */,
+                     );
+                     name = "test-ping";
+                     sourceTree = "<group>";
+              };
+              CD8F730CB96443A5995C7BEE /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            D9E502D933F643CBA27CE82A /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-ping.c */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              F8E10C6B0B88432FA5976A65 /* test-server */ = {
+                     isa = PBXGroup;
+                     children = (
+                            BFAC85EB387C4EDBA1E932EB /* Sources */,
+                            68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */,
+                     );
+                     name = "test-server";
+                     sourceTree = "<group>";
+              };
+              BFAC85EB387C4EDBA1E932EB /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            EAC91C27805B4737B1CD2F4A /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-server.c */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              7B411913FE914EC4BBD47856 /* test-server-extpoll */ = {
+                     isa = PBXGroup;
+                     children = (
+                            882F0D61342F451BBF207E46 /* Sources */,
+                            68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */,
+                     );
+                     name = "test-server-extpoll";
+                     sourceTree = "<group>";
+              };
+              882F0D61342F451BBF207E46 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            EAC91C27805B4737B1CD2F4A /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-server.c */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              6357E2C689E54EF093206F60 /* websockets */ = {
+                     isa = PBXGroup;
+                     children = (
+                            17D100137A5D408F8ED0CD48 /* Headers Private */,
+                            95C79740B8194084BEFF1081 /* Headers Public */,
+                            FA7D7353AEBA4B87B349786E /* Sources */,
+                            68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */,
+                     );
+                     name = websockets;
+                     sourceTree = "<group>";
+              };
+              17D100137A5D408F8ED0CD48 /* Headers Private */ = {
+                     isa = PBXGroup;
+                     children = (
+                            14462879A3FD4CFC9A6DBE36 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-frame.h */,
+                            26D1FC03A4D24BE58E2EC7F1 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-stream.h */,
+                            40EB38D9BF8841BD9FBE819D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/private-libwebsockets.h */,
+                            9068CD90F2D744F49EC36CBE /* /Volumes/2T/ServiceData/git/libwebsockets/lws_config.h */,
+                     );
+                     name = "Headers Private";
+                     sourceTree = "<group>";
+              };
+              95C79740B8194084BEFF1081 /* Headers Public */ = {
+                     isa = PBXGroup;
+                     children = (
+                            23C5708FAD6C40179423E0B5 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/libwebsockets.h */,
+                     );
+                     name = "Headers Public";
+                     sourceTree = "<group>";
+              };
+              FA7D7353AEBA4B87B349786E /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B3606E63C46248FD8F9CBAE7 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/base64-decode.c */,
+                            8DB6A567B70042ED92A7B2F6 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-handshake.c */,
+                            4366A7B9393945BA918F392D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-parser.c */,
+                            CC789D8A39BE46FF9E09F956 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client.c */,
+                            13C17C92BC1C49B38E66FF98 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/daemonize.c */,
+                            062D655412F541B0AA700342 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-frame.c */,
+                            303A605ABF7243858BE9056A /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-stream.c */,
+                            0AB8B23D35094AE8B7E3F7BC /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension.c */,
+                            5C93ECE434F949B591324C09 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/handshake.c */,
+                            FDD91A1B8C2F4515B1854C16 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/libwebsockets.c */,
+                            5EC7B7E22AFC4343B7A9764D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/output.c */,
+                            09E5A62EC42F4757A47B9899 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/parsers.c */,
+                            1A10DC1478D34729836E5129 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server-handshake.c */,
+                            E7872B6F804E47D78B37FCE3 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server.c */,
+                            C5FA78E0037C426E8114F932 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/sha-1.c */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              245A7CDA1CF548E09F04616C /* websockets_shared */ = {
+                     isa = PBXGroup;
+                     children = (
+                            360E3861AC2D4702BEABCC87 /* Headers Private */,
+                            D4023C4EEA574B049695759E /* Headers Public */,
+                            1658B26E44254235B6040572 /* Sources */,
+                            68D974F1EB9F479A89F55793 /* /Volumes/2T/ServiceData/git/libwebsockets/CMakeLists.txt */,
+                     );
+                     name = websockets_shared;
+                     sourceTree = "<group>";
+              };
+              360E3861AC2D4702BEABCC87 /* Headers Private */ = {
+                     isa = PBXGroup;
+                     children = (
+                            14462879A3FD4CFC9A6DBE36 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-frame.h */,
+                            26D1FC03A4D24BE58E2EC7F1 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-stream.h */,
+                            40EB38D9BF8841BD9FBE819D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/private-libwebsockets.h */,
+                            9068CD90F2D744F49EC36CBE /* /Volumes/2T/ServiceData/git/libwebsockets/lws_config.h */,
+                     );
+                     name = "Headers Private";
+                     sourceTree = "<group>";
+              };
+              D4023C4EEA574B049695759E /* Headers Public */ = {
+                     isa = PBXGroup;
+                     children = (
+                            23C5708FAD6C40179423E0B5 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/libwebsockets.h */,
+                     );
+                     name = "Headers Public";
+                     sourceTree = "<group>";
+              };
+              1658B26E44254235B6040572 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B3606E63C46248FD8F9CBAE7 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/base64-decode.c */,
+                            8DB6A567B70042ED92A7B2F6 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-handshake.c */,
+                            4366A7B9393945BA918F392D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-parser.c */,
+                            CC789D8A39BE46FF9E09F956 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client.c */,
+                            13C17C92BC1C49B38E66FF98 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/daemonize.c */,
+                            062D655412F541B0AA700342 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-frame.c */,
+                            303A605ABF7243858BE9056A /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-stream.c */,
+                            0AB8B23D35094AE8B7E3F7BC /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension.c */,
+                            5C93ECE434F949B591324C09 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/handshake.c */,
+                            FDD91A1B8C2F4515B1854C16 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/libwebsockets.c */,
+                            5EC7B7E22AFC4343B7A9764D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/output.c */,
+                            09E5A62EC42F4757A47B9899 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/parsers.c */,
+                            1A10DC1478D34729836E5129 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server-handshake.c */,
+                            E7872B6F804E47D78B37FCE3 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server.c */,
+                            C5FA78E0037C426E8114F932 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/sha-1.c */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              EC412982304746EB96EF3369 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            75B581B3F549450EACDDB116 /* test-client */,
+                            600AD37716794772BB47EEF2 /* test-echo */,
+                            3226E6D1DE1E4FFA8D2C19F0 /* test-fraggle */,
+                            61A0A0F6D61D4206B2BB4DF6 /* test-ping */,
+                            7DC06B62217D47308DBC4870 /* test-server */,
+                            0F6CDCF106284D858696F17B /* test-server-extpoll */,
+                            7DA6B6D30F02427796DF6318 /* websockets */,
+                            C53AAE1E9FD84476A53AA5CD /* websockets_shared */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              BC35D19067C245AF81DB6F43 /* test-client */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 3B8E5237684A4A6F925B0E90 /* Build configuration list for PBXNativeTarget "test-client" */;
+                     buildPhases = (
+                            6018A2A3B20D4B49B2855776 /* Sources */,
+                            B479DA06A0394F8B9DB643E5 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            FD93CF947F984BA38BC74AA8 /* PBXTargetDependency */,
+                            C300C494DDAF49548C496866 /* PBXTargetDependency */,
+                     );
+                     name = "test-client";
+                     productName = "test-client";
+                     productReference = 75B581B3F549450EACDDB116 /* test-client */;
+                     productType = "com.apple.product-type.tool";
+              };
+              3A0C36ADB11447DC81C3B6BD /* test-echo */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 120B17DEA6384724A333FB74 /* Build configuration list for PBXNativeTarget "test-echo" */;
+                     buildPhases = (
+                            66347504E5BA4F3E99379E42 /* Sources */,
+                            51772B587B494FA6A1B21352 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            02477A354E6E4A7A8976425D /* PBXTargetDependency */,
+                            DB0E091E5F8B4A92A6529D69 /* PBXTargetDependency */,
+                     );
+                     name = "test-echo";
+                     productName = "test-echo";
+                     productReference = 600AD37716794772BB47EEF2 /* test-echo */;
+                     productType = "com.apple.product-type.tool";
+              };
+              592A2BD204CC425FA1277699 /* test-fraggle */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = E165F2EF095C4E31B8801812 /* Build configuration list for PBXNativeTarget "test-fraggle" */;
+                     buildPhases = (
+                            42FF63CA344A45F4AE602DAE /* Sources */,
+                            534D5DC909FD4BC98192AC8D /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            04A4753909BE4BBB88431007 /* PBXTargetDependency */,
+                            E31A6716AC9242A6AD73348B /* PBXTargetDependency */,
+                     );
+                     name = "test-fraggle";
+                     productName = "test-fraggle";
+                     productReference = 3226E6D1DE1E4FFA8D2C19F0 /* test-fraggle */;
+                     productType = "com.apple.product-type.tool";
+              };
+              83F71C3BEA7C452A8D22ECA0 /* test-ping */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 0464CE61661B4F27ADD6999D /* Build configuration list for PBXNativeTarget "test-ping" */;
+                     buildPhases = (
+                            A043781156B7479B8047AE0F /* Sources */,
+                            6035473872D84A0F8CAC4ACB /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            85C3F2C7BD3141A4AC40B1E8 /* PBXTargetDependency */,
+                            7362BA09C04742329CDE70AC /* PBXTargetDependency */,
+                     );
+                     name = "test-ping";
+                     productName = "test-ping";
+                     productReference = 61A0A0F6D61D4206B2BB4DF6 /* test-ping */;
+                     productType = "com.apple.product-type.tool";
+              };
+              EA7953E9F2D54AEDB5A434D6 /* test-server */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = A380A33BF614403DBD44A0F6 /* Build configuration list for PBXNativeTarget "test-server" */;
+                     buildPhases = (
+                            95A941FF197F4709984E6D4B /* Sources */,
+                            3F689BE12D9747A1B7FA6EC3 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            B254942864794B9A958F399B /* PBXTargetDependency */,
+                            8096BB916BA8418CA79B07F6 /* PBXTargetDependency */,
+                     );
+                     name = "test-server";
+                     productName = "test-server";
+                     productReference = 7DC06B62217D47308DBC4870 /* test-server */;
+                     productType = "com.apple.product-type.tool";
+              };
+              0505BDEE54AB43BEB5421FF4 /* test-server-extpoll */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = E0112910ADD44723B70EF6DC /* Build configuration list for PBXNativeTarget "test-server-extpoll" */;
+                     buildPhases = (
+                            26FCB09357C549C1AC5AB9E7 /* Sources */,
+                            A14F96AD4992456F91909359 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            BAC83B978571401D8B4370A0 /* PBXTargetDependency */,
+                            2757EF0969044F86B22E2E0A /* PBXTargetDependency */,
+                     );
+                     name = "test-server-extpoll";
+                     productName = "test-server-extpoll";
+                     productReference = 0F6CDCF106284D858696F17B /* test-server-extpoll */;
+                     productType = "com.apple.product-type.tool";
+              };
+              A50491CA23644657AD1B3F4F /* websockets */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 560E0493C9F74F07A3D475D5 /* Build configuration list for PBXNativeTarget "websockets" */;
+                     buildPhases = (
+                            C704266E2CA9499E9BAB376C /* Sources */,
+                            87DC0641136B4162BA70CA66 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            ED4248E28885444280CE513D /* PBXTargetDependency */,
+                     );
+                     name = websockets;
+                     productName = websockets;
+                     productReference = 7DA6B6D30F02427796DF6318 /* websockets */;
+                     productType = "com.apple.product-type.library.static";
+              };
+              7BCDBA31554C4182BE9308F8 /* websockets_shared */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = D0FB5F496B794E76A732A637 /* Build configuration list for PBXNativeTarget "websockets_shared" */;
+                     buildPhases = (
+                            E5C5007DA94F4E0BA7106A7C /* Sources */,
+                            4787D994348042FAA9DF9BFE /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            7F32A9CAD4F943D989B542AF /* PBXTargetDependency */,
+                     );
+                     name = websockets_shared;
+                     productName = websockets_shared;
+                     productReference = C53AAE1E9FD84476A53AA5CD /* websockets_shared */;
+                     productType = "com.apple.product-type.library.dynamic";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              9013C7FAE231417DAC9A9B6C /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = F856C90E3FF84C77BF232D03 /* Build configuration list for PBXProject  "libwebsockets" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            804CA45ACE404E63841B9D43 /* Debug */,
+                            CDE62637E06A4BC686CAD968 /* Release */,
+                            3056225AE8DB47E49494562A /* MinSizeRel */,
+                            E34E3601D31C448EA865C3D1 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 79F5D44751374D8C8F3D93EA;
+                     projectDirPath = ".";
+                     projectRoot = "";
+                     targets = (
+                            CB6779F251F6485586697D11 /* ALL_BUILD */,
+                            DE1B6D6D311D42BA8965F0B6 /* ZERO_CHECK */,
+                            2B41F61B3714477EB1AABA9D /* dist */,
+                            C99DE65EBA9A4A9EAE6F2A00 /* install */,
+                            BC1E605BDCA14E2BB15F619D /* package */,
+                            BC35D19067C245AF81DB6F43 /* test-client */,
+                            3A0C36ADB11447DC81C3B6BD /* test-echo */,
+                            592A2BD204CC425FA1277699 /* test-fraggle */,
+                            83F71C3BEA7C452A8D22ECA0 /* test-ping */,
+                            EA7953E9F2D54AEDB5A434D6 /* test-server */,
+                            0505BDEE54AB43BEB5421FF4 /* test-server-extpoll */,
+                            A50491CA23644657AD1B3F4F /* websockets */,
+                            7BCDBA31554C4182BE9308F8 /* websockets_shared */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              F7AC3A92C5AA44E281CAA949 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              F3D440E9CD9E42FB9C7BF7F4 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Volumes/2T/ServiceData/git/libwebsockets -f /Volumes/2T/ServiceData/git/libwebsockets/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              30B48E895F2B4D72BDC0B578 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              705399BCEC1E498AB1BD14DB /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Volumes/2T/ServiceData/git/libwebsockets -f /Volumes/2T/ServiceData/git/libwebsockets/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              AEAC8F520DEA48D98239F669 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              FC130D0078FC4A0390CE2409 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Volumes/2T/ServiceData/git/libwebsockets -f /Volumes/2T/ServiceData/git/libwebsockets/CMakeScripts/dist_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              FB18831C241D4447AE7EF729 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              86AE2DE49F434A40BD6C3E22 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Volumes/2T/ServiceData/git/libwebsockets -f /Volumes/2T/ServiceData/git/libwebsockets/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              03F6C90FE8A9413490B8A463 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              BA084ACB6A1B4F8D8310542A /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Volumes/2T/ServiceData/git/libwebsockets -f /Volumes/2T/ServiceData/git/libwebsockets/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              B479DA06A0394F8B9DB643E5 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Volumes/2T/ServiceData/git/libwebsockets -f /Volumes/2T/ServiceData/git/libwebsockets/CMakeScripts/test-client_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              51772B587B494FA6A1B21352 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Volumes/2T/ServiceData/git/libwebsockets -f /Volumes/2T/ServiceData/git/libwebsockets/CMakeScripts/test-echo_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              534D5DC909FD4BC98192AC8D /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Volumes/2T/ServiceData/git/libwebsockets -f /Volumes/2T/ServiceData/git/libwebsockets/CMakeScripts/test-fraggle_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              6035473872D84A0F8CAC4ACB /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Volumes/2T/ServiceData/git/libwebsockets -f /Volumes/2T/ServiceData/git/libwebsockets/CMakeScripts/test-ping_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              3F689BE12D9747A1B7FA6EC3 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Volumes/2T/ServiceData/git/libwebsockets -f /Volumes/2T/ServiceData/git/libwebsockets/CMakeScripts/test-server_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              A14F96AD4992456F91909359 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Volumes/2T/ServiceData/git/libwebsockets -f /Volumes/2T/ServiceData/git/libwebsockets/CMakeScripts/test-server-extpoll_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              87DC0641136B4162BA70CA66 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Volumes/2T/ServiceData/git/libwebsockets -f /Volumes/2T/ServiceData/git/libwebsockets/CMakeScripts/websockets_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              4787D994348042FAA9DF9BFE /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Volumes/2T/ServiceData/git/libwebsockets -f /Volumes/2T/ServiceData/git/libwebsockets/CMakeScripts/websockets_shared_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              6018A2A3B20D4B49B2855776 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            0EFEBFDD37F746E2B300DDED /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-client.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              66347504E5BA4F3E99379E42 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            D6BB5E59B1A640A08DF9AE4C /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-echo.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              42FF63CA344A45F4AE602DAE /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            E32756DA20084A61BBE6A9E0 /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-fraggle.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              A043781156B7479B8047AE0F /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            4DC8720ECF7742CE8F5B20BB /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-ping.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              95A941FF197F4709984E6D4B /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            8951D495F0454D3FA3B4EEFB /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-server.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              26FCB09357C549C1AC5AB9E7 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            F669E96A8434405DBA2E9C7A /* /Volumes/2T/ServiceData/git/libwebsockets/test-server/test-server.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              C704266E2CA9499E9BAB376C /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            F1BE0E51A735430A941D432B /* /Volumes/2T/ServiceData/git/libwebsockets/lib/base64-decode.c */,
+                            C78A7AA85B424862BBF9EF2D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-handshake.c */,
+                            6583E1C44D494873AB9A12A0 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-parser.c */,
+                            EA3A00C528144758922C1597 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client.c */,
+                            51810645C7E34D72A70C4D97 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/daemonize.c */,
+                            237C7C61F84A4E4A86641946 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-frame.c */,
+                            2FF0766B22084C40A33DF5B5 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-stream.c */,
+                            C6227521F1114E079A4AF184 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension.c */,
+                            8E50D87DD6F64A0AB9B50F35 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/handshake.c */,
+                            2BC4042B041D4850A60020F1 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/libwebsockets.c */,
+                            D52079AA02AC4674A591ADD9 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/output.c */,
+                            E13F2B4078BF4921A6CFDDF2 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/parsers.c */,
+                            F7FA88641BC54E92AAF913DD /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server-handshake.c */,
+                            1B6499CF22574E2B9D02B986 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server.c */,
+                            C2148A44913D460ABFB45894 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/sha-1.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              E5C5007DA94F4E0BA7106A7C /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            C7BB68ED3F6F43C8BA9F655E /* /Volumes/2T/ServiceData/git/libwebsockets/lib/base64-decode.c */,
+                            4CC0F89B191B4FC8A8CCB467 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-handshake.c */,
+                            8971AE8D65B14660A22E8ECC /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client-parser.c */,
+                            216E6278D99C4E93920E19C7 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/client.c */,
+                            86AA06B262574F2A98B3CC1D /* /Volumes/2T/ServiceData/git/libwebsockets/lib/daemonize.c */,
+                            EBC452DF45824CA9A955915F /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-frame.c */,
+                            52AC3B4800B14990A6AC6548 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension-deflate-stream.c */,
+                            BC2223171E5F4CF58625F891 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/extension.c */,
+                            8366E8CAA72546699DEC9B75 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/handshake.c */,
+                            58C79163569C42C1B1B02F5E /* /Volumes/2T/ServiceData/git/libwebsockets/lib/libwebsockets.c */,
+                            42FE36B3E1454C3480B99E6E /* /Volumes/2T/ServiceData/git/libwebsockets/lib/output.c */,
+                            D95921A42A5844659E200BF2 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/parsers.c */,
+                            AD5DA15311B9411BA50FFF24 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server-handshake.c */,
+                            B2941A5BFF854E90BF6A70E9 /* /Volumes/2T/ServiceData/git/libwebsockets/lib/server.c */,
+                            62DE27F374414A698718D5EB /* /Volumes/2T/ServiceData/git/libwebsockets/lib/sha-1.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              C4F82CF70DF04A9DB434A6DB /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = BC35D19067C245AF81DB6F43 /* test-client */;
+                     targetProxy = 846AA2233BF3429097101B50 /* PBXContainerItemProxy */;
+              };
+              D0B29D440E2741F8BB3E0D8D /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 592A2BD204CC425FA1277699 /* test-fraggle */;
+                     targetProxy = 623838269D004329861967AA /* PBXContainerItemProxy */;
+              };
+              19C0575065D04431BFF67EB9 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 83F71C3BEA7C452A8D22ECA0 /* test-ping */;
+                     targetProxy = 3E3A982CEE9E4B04A923E737 /* PBXContainerItemProxy */;
+              };
+              2CADE939C41945F38099FE63 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 3A0C36ADB11447DC81C3B6BD /* test-echo */;
+                     targetProxy = E45013FB130D465BB9CE52B8 /* PBXContainerItemProxy */;
+              };
+              C0E0336162FD41ABA52A5C01 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = DE1B6D6D311D42BA8965F0B6 /* ZERO_CHECK */;
+                     targetProxy = 3762DA4473F74E8ABB7E4A7B /* PBXContainerItemProxy */;
+              };
+              7F2AF843E57D4E518C8E06A5 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = A50491CA23644657AD1B3F4F /* websockets */;
+                     targetProxy = CD8A167C3E814D11A3B277B0 /* PBXContainerItemProxy */;
+              };
+              70155228AE0E4AE7B69315D7 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 7BCDBA31554C4182BE9308F8 /* websockets_shared */;
+                     targetProxy = 46197AF3F55F497DA2C96122 /* PBXContainerItemProxy */;
+              };
+              FDA6236DE3534C60AFD883A4 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = EA7953E9F2D54AEDB5A434D6 /* test-server */;
+                     targetProxy = 8BCCA900C7A6499EA40C3301 /* PBXContainerItemProxy */;
+              };
+              CF0B6C6DE6234007AA778B46 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 0505BDEE54AB43BEB5421FF4 /* test-server-extpoll */;
+                     targetProxy = F86E1FC9BD854C4B88544ABF /* PBXContainerItemProxy */;
+              };
+              E8EDFC84990145D791130A75 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = DE1B6D6D311D42BA8965F0B6 /* ZERO_CHECK */;
+                     targetProxy = 5734068076B44665822D2460 /* PBXContainerItemProxy */;
+              };
+              1BEB8E622B75407A92B0543B /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = CB6779F251F6485586697D11 /* ALL_BUILD */;
+                     targetProxy = 836523B0864C4E2286D372AD /* PBXContainerItemProxy */;
+              };
+              03A9C52948F340BCAA29EC23 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = CB6779F251F6485586697D11 /* ALL_BUILD */;
+                     targetProxy = CC4F71C9BA804E0B9B70EA5A /* PBXContainerItemProxy */;
+              };
+              FD93CF947F984BA38BC74AA8 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = DE1B6D6D311D42BA8965F0B6 /* ZERO_CHECK */;
+                     targetProxy = CF3692182A19498DB14B8443 /* PBXContainerItemProxy */;
+              };
+              C300C494DDAF49548C496866 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = A50491CA23644657AD1B3F4F /* websockets */;
+                     targetProxy = 7C6EB9BFB99B440BA887A8E5 /* PBXContainerItemProxy */;
+              };
+              02477A354E6E4A7A8976425D /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = DE1B6D6D311D42BA8965F0B6 /* ZERO_CHECK */;
+                     targetProxy = 6D2B7A26B8FC4CB9A4D63995 /* PBXContainerItemProxy */;
+              };
+              DB0E091E5F8B4A92A6529D69 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = A50491CA23644657AD1B3F4F /* websockets */;
+                     targetProxy = 299B3BBA0F7F4B308CB96F7B /* PBXContainerItemProxy */;
+              };
+              04A4753909BE4BBB88431007 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = DE1B6D6D311D42BA8965F0B6 /* ZERO_CHECK */;
+                     targetProxy = 08F506712D5D4035AF620FD6 /* PBXContainerItemProxy */;
+              };
+              E31A6716AC9242A6AD73348B /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = A50491CA23644657AD1B3F4F /* websockets */;
+                     targetProxy = 99751CCC35734FA491132A8A /* PBXContainerItemProxy */;
+              };
+              85C3F2C7BD3141A4AC40B1E8 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = DE1B6D6D311D42BA8965F0B6 /* ZERO_CHECK */;
+                     targetProxy = 15C0106E8E7F4FC385344E5B /* PBXContainerItemProxy */;
+              };
+              7362BA09C04742329CDE70AC /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = A50491CA23644657AD1B3F4F /* websockets */;
+                     targetProxy = 6178C01678324BAA8768FE8C /* PBXContainerItemProxy */;
+              };
+              B254942864794B9A958F399B /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = DE1B6D6D311D42BA8965F0B6 /* ZERO_CHECK */;
+                     targetProxy = AD7AFA0934714972A2BFA4A5 /* PBXContainerItemProxy */;
+              };
+              8096BB916BA8418CA79B07F6 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = A50491CA23644657AD1B3F4F /* websockets */;
+                     targetProxy = 364D289ABB064CB1A94674B7 /* PBXContainerItemProxy */;
+              };
+              BAC83B978571401D8B4370A0 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = DE1B6D6D311D42BA8965F0B6 /* ZERO_CHECK */;
+                     targetProxy = 01DF49D007724307A93B6F96 /* PBXContainerItemProxy */;
+              };
+              2757EF0969044F86B22E2E0A /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = A50491CA23644657AD1B3F4F /* websockets */;
+                     targetProxy = 7E4A28C746394F798989402E /* PBXContainerItemProxy */;
+              };
+              ED4248E28885444280CE513D /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = DE1B6D6D311D42BA8965F0B6 /* ZERO_CHECK */;
+                     targetProxy = 644D8A18211D43A698943CE4 /* PBXContainerItemProxy */;
+              };
+              7F32A9CAD4F943D989B542AF /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = DE1B6D6D311D42BA8965F0B6 /* ZERO_CHECK */;
+                     targetProxy = 787863ED934A4B999254F9CA /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              54288FE7CED542BB8F632BFD /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets/build;
+                     };
+                     name = Debug;
+              };
+              4A15B4E35B15497C94C1A231 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets/build;
+                     };
+                     name = Release;
+              };
+              A345F4DFE5AF4931BDA8E051 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets/build;
+                     };
+                     name = MinSizeRel;
+              };
+              3B21E78AB80048DAB6BC7583 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              C8986C6B4DC44EFFB025D3E7 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              E16B93C0279A44859D0C5B01 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              E6E3D4E254F9448C850711E5 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              1A1D133FB4724A5CA3D493BF /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              9584309955164147A619B6A1 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              C265D83CC15549799A210223 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              FC365196F07F4396B7E4EF9B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              0C8541D861C049368C9E04EE /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              89BF2B791B9F41FEBC3D6E0F /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dist;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              F00053B0E96F42BDABB03FBF /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dist;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              65BAA86931654DC2B16FBC8C /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dist;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              2838989295494752A7BBDAE8 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dist;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              0B421B6C62F54E518B6847A5 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              2E5ACAA89F0746C0B60A10FC /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              8D1F79F006FF4217B36C388B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              AF29652DA8B74598AE822FA2 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              1E3FE136232544C1A13EB361 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              BA742116C8174AE98FAA8C55 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              4556ED634F3E4D37B47B38AD /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              C6447DE140754925AB02471D /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              22AFEB49E9C740E4AFC03739 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/Debug;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/Debug/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-client";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              F7645935615340ED9D37D730 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/Release;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/Release/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-client";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              40150C0DE0C547079AFAC8DE /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/MinSizeRel;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/MinSizeRel/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-client";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              05B91924CBF041D1AEAE274B /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/RelWithDebInfo;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/RelWithDebInfo/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-client";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              8D69068A5CC54A9EB2F280C3 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/Debug;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/Debug/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-echo";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              F47248FC56FA464CBC3BFE43 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/Release;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/Release/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-echo";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              D8DD9A75E1284BACB7E1555F /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/MinSizeRel;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/MinSizeRel/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-echo";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              BDE31E7FD44D49F69A35E60E /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/RelWithDebInfo;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/RelWithDebInfo/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-echo";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              F4F068DA3BB048D19413C746 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/Debug;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/Debug/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-fraggle";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              887EE9AF322A47B3838098C5 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/Release;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/Release/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-fraggle";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              6EEBCC3D06CD413B8F9640BC /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/MinSizeRel;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/MinSizeRel/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-fraggle";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              086E2A1FE62645FA81E76D5B /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/RelWithDebInfo;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/RelWithDebInfo/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-fraggle";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              B54B75D9DDE74B0F9146FC74 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/Debug;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/Debug/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-ping";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              70DDB004A13549FF98FA6A3B /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/Release;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/Release/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-ping";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              4E920FE5B3D74D8D8CE4FEEA /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/MinSizeRel;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/MinSizeRel/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-ping";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              2979D6DE262749319696BE43 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/RelWithDebInfo;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/RelWithDebInfo/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-ping";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              D04A73DBC3CA4467BBCE2E86 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/Debug;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/Debug/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-server";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              CC1B8C883CB94BFBB793E3EB /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/Release;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/Release/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-server";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              F21E96058B5242119535533A /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/MinSizeRel;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/MinSizeRel/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-server";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              53E88FF824D847AD8C8A3BCB /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/RelWithDebInfo;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/RelWithDebInfo/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-server";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              F7447B8AAA8A4E1AA61E82ED /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/Debug;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", EXTERNAL_POLL, "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/Debug/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-server-extpoll";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              B36A3AEFAB094DA4B197E610 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/Release;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", EXTERNAL_POLL, "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/Release/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-server-extpoll";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              CD8B72EE1092458CBD2CC34F /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/MinSizeRel;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", EXTERNAL_POLL, "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/MinSizeRel/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-server-extpoll";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              A2C255B2036949729876E348 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/bin/RelWithDebInfo;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", EXTERNAL_POLL, "'INSTALL_DATADIR=\"/usr/local/share\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Volumes/2T/ServiceData/git/libwebsockets/lib/RelWithDebInfo/libwebsockets.a /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "libwebsockets-test-server-extpoll";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              A8AE809B0D134A4B973B78DA /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/lib/Debug;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = websockets;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              0D24E518810447F4AAAEEAB0 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/lib/Release;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = websockets;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              30408F03FF784DECA671652A /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/lib/MinSizeRel;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = websockets;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              656E99550C054E789DC02088 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/lib/RelWithDebInfo;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = websockets;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              72DF1E30687D422BB41178F9 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/lib/Debug;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", websockets_shared_EXPORTS, CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = /Volumes/2T/ServiceData/git/libwebsockets/lib/Debug;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "   -fPIC  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = websockets;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              C1E27C13DED4447BA3A9C184 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/lib/Release;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", websockets_shared_EXPORTS, CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = /Volumes/2T/ServiceData/git/libwebsockets/lib/Release;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = websockets;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              4FC9B08EBEC0425899480764 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/lib/MinSizeRel;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", websockets_shared_EXPORTS, CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = /Volumes/2T/ServiceData/git/libwebsockets/lib/MinSizeRel;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = websockets;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              5655793819E849A48023A624 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Volumes/2T/ServiceData/git/libwebsockets/lib/RelWithDebInfo;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", websockets_shared_EXPORTS, CMAKE_BUILD, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Volumes/2T/ServiceData/git/libwebsockets, /Volumes/2T/ServiceData/git/libwebsockets/lib, );
+                            INSTALL_PATH = /Volumes/2T/ServiceData/git/libwebsockets/lib/RelWithDebInfo;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "       -DNDEBUG -fPIC  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names /usr/lib/libz.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = websockets;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Volumes/2T/ServiceData/git/libwebsockets;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              F856C90E3FF84C77BF232D03 /* Build configuration list for PBXProject  "libwebsockets" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            54288FE7CED542BB8F632BFD /* Debug */,
+                            4A15B4E35B15497C94C1A231 /* Release */,
+                            A345F4DFE5AF4931BDA8E051 /* MinSizeRel */,
+                            3B21E78AB80048DAB6BC7583 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              657F1A388FD3437E9DBD0D31 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C8986C6B4DC44EFFB025D3E7 /* Debug */,
+                            E16B93C0279A44859D0C5B01 /* Release */,
+                            E6E3D4E254F9448C850711E5 /* MinSizeRel */,
+                            1A1D133FB4724A5CA3D493BF /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              C3D3C73432454FFC8759CE68 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            9584309955164147A619B6A1 /* Debug */,
+                            C265D83CC15549799A210223 /* Release */,
+                            FC365196F07F4396B7E4EF9B /* MinSizeRel */,
+                            0C8541D861C049368C9E04EE /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              F10119ED297A4B0BAD68C269 /* Build configuration list for PBXAggregateTarget "dist" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            89BF2B791B9F41FEBC3D6E0F /* Debug */,
+                            F00053B0E96F42BDABB03FBF /* Release */,
+                            65BAA86931654DC2B16FBC8C /* MinSizeRel */,
+                            2838989295494752A7BBDAE8 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              61F539940BF6409985741C19 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            0B421B6C62F54E518B6847A5 /* Debug */,
+                            2E5ACAA89F0746C0B60A10FC /* Release */,
+                            8D1F79F006FF4217B36C388B /* MinSizeRel */,
+                            AF29652DA8B74598AE822FA2 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              4831DDE3E03C43BE8D80838E /* Build configuration list for PBXAggregateTarget "package" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            1E3FE136232544C1A13EB361 /* Debug */,
+                            BA742116C8174AE98FAA8C55 /* Release */,
+                            4556ED634F3E4D37B47B38AD /* MinSizeRel */,
+                            C6447DE140754925AB02471D /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              3B8E5237684A4A6F925B0E90 /* Build configuration list for PBXNativeTarget "test-client" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            22AFEB49E9C740E4AFC03739 /* Debug */,
+                            F7645935615340ED9D37D730 /* Release */,
+                            40150C0DE0C547079AFAC8DE /* MinSizeRel */,
+                            05B91924CBF041D1AEAE274B /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              120B17DEA6384724A333FB74 /* Build configuration list for PBXNativeTarget "test-echo" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            8D69068A5CC54A9EB2F280C3 /* Debug */,
+                            F47248FC56FA464CBC3BFE43 /* Release */,
+                            D8DD9A75E1284BACB7E1555F /* MinSizeRel */,
+                            BDE31E7FD44D49F69A35E60E /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E165F2EF095C4E31B8801812 /* Build configuration list for PBXNativeTarget "test-fraggle" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            F4F068DA3BB048D19413C746 /* Debug */,
+                            887EE9AF322A47B3838098C5 /* Release */,
+                            6EEBCC3D06CD413B8F9640BC /* MinSizeRel */,
+                            086E2A1FE62645FA81E76D5B /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              0464CE61661B4F27ADD6999D /* Build configuration list for PBXNativeTarget "test-ping" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            B54B75D9DDE74B0F9146FC74 /* Debug */,
+                            70DDB004A13549FF98FA6A3B /* Release */,
+                            4E920FE5B3D74D8D8CE4FEEA /* MinSizeRel */,
+                            2979D6DE262749319696BE43 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A380A33BF614403DBD44A0F6 /* Build configuration list for PBXNativeTarget "test-server" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            D04A73DBC3CA4467BBCE2E86 /* Debug */,
+                            CC1B8C883CB94BFBB793E3EB /* Release */,
+                            F21E96058B5242119535533A /* MinSizeRel */,
+                            53E88FF824D847AD8C8A3BCB /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E0112910ADD44723B70EF6DC /* Build configuration list for PBXNativeTarget "test-server-extpoll" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            F7447B8AAA8A4E1AA61E82ED /* Debug */,
+                            B36A3AEFAB094DA4B197E610 /* Release */,
+                            CD8B72EE1092458CBD2CC34F /* MinSizeRel */,
+                            A2C255B2036949729876E348 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              560E0493C9F74F07A3D475D5 /* Build configuration list for PBXNativeTarget "websockets" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            A8AE809B0D134A4B973B78DA /* Debug */,
+                            0D24E518810447F4AAAEEAB0 /* Release */,
+                            30408F03FF784DECA671652A /* MinSizeRel */,
+                            656E99550C054E789DC02088 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              D0FB5F496B794E76A732A637 /* Build configuration list for PBXNativeTarget "websockets_shared" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            72DF1E30687D422BB41178F9 /* Debug */,
+                            C1E27C13DED4447BA3A9C184 /* Release */,
+                            4FC9B08EBEC0425899480764 /* MinSizeRel */,
+                            5655793819E849A48023A624 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 9013C7FAE231417DAC9A9B6C;
+}

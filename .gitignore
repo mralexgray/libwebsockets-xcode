@@ -37,3 +37,5 @@ ltmain.sh
 config.sub
 ar-lib
 libwebsockets.pc
+libwebsockets.build
+CMakeFiles
